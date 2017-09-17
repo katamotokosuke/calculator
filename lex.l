@@ -21,9 +21,8 @@
 "*" { return MUL; }
 "/" { return DIV; }
 "%" { return REM; }
-"^" { return POW; }
 "\n" { return CR; }
-"(" { return LP; }
-")" { return RP; }
+"(" { return LEFT_BRACKET; }
+")" { return RIGHT_BRACKET; }
 
 %%
